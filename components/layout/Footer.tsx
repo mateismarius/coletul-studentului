@@ -49,7 +49,7 @@ export default function Footer() {
                                     <span className="text-white font-bold text-xl">CS</span>
                                 </div>
                                 <div>
-                                    <h3 className="text-2xl font-bold">ColetulStudentului</h3>
+                                    <h3 className="text-2xl font-bold">Coletul Studentului</h3>
                                     <p className="text-neutral-400 text-sm">Coletarie pentru studenti</p>
                                 </div>
                             </div>
@@ -152,7 +152,7 @@ export default function Footer() {
                     <div className="max-w-7xl mx-auto">
                         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
                             <div className="text-neutral-400 text-sm">
-                                © {currentYear} ColetulStudentului. Toate drepturile rezervate.
+                                © {currentYear} Coletul Studentului. Toate drepturile rezervate.
                             </div>
 
                             <div className="text-neutral-400 text-sm">

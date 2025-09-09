@@ -11,10 +11,10 @@ export default function Header() {
                     <div className="flex items-center space-x-2">
                         <div
                             className="w-10 h-10 bg-gradient-to-br from-neutral-700 to-neutral-800 rounded-xl flex items-center justify-center">
-                            <span className="text-white font-bold text-lg">SP</span>
+                            <span className="text-white font-bold text-lg">CS</span>
                         </div>
                         <div>
-                            <span className="text-xl font-bold text-neutral-900">StudePack</span>
+                            <span className="text-xl font-bold text-neutral-900">Coletul Studentului</span>
                             <p className="text-xs text-neutral-600 -mt-1">Coletarie pentru studenti</p>
                         </div>
                     </div>
