@@ -1,18 +1,72 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Neutral Color Palette */
+  --neutral-50: 250 250 250;
+  --neutral-100: 245 245 245;
+  --neutral-200: 229 229 229;
+  --neutral-300: 212 212 212;
+  --neutral-400: 163 163 163;
+  --neutral-500: 115 115 115;
+  --neutral-600: 82 82 82;
+  --neutral-700: 64 64 64;
+  --neutral-800: 38 38 38;
+  --neutral-900: 23 23 23;
+  --neutral-950: 10 10 10;
+
+  /* Orange Accent Colors */
+  --orange-50: 255 247 237;
+  --orange-100: 255 237 213;
+  --orange-200: 254 215 170;
+  --orange-300: 253 186 116;
+  --orange-400: 251 146 60;
+  --orange-500: 249 115 22;
+  --orange-600: 234 88 12;
+  --orange-700: 194 65 12;
+  --orange-800: 154 52 18;
+  --orange-900: 124 45 18;
+  --orange-950: 67 20 7;
+
+  /* Semantic Colors using Neutral + Orange */
+  --background: 0 0% 100%;
+  --foreground: 0 0% 9%;
+
+  --card: 0 0% 100%;
+  --card-foreground: 0 0% 9%;
+
+  --popover: 0 0% 100%;
+  --popover-foreground: 0 0% 9%;
+
+  --primary: 25 95% 53%; /* Orange-500 */
+  --primary-foreground: 0 0% 98%;
+
+  --secondary: 0 0% 96.1%;
+  --secondary-foreground: 0 0% 9%;
+
+  --muted: 0 0% 96.1%;
+  --muted-foreground: 0 0% 45.1%;
+
+  --accent: 25 95% 53%; /* Orange-500 */
+  --accent-foreground: 0 0% 9%;
+
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 0 0% 98%;
+
+  --border: 0 0% 89.8%;
+  --input: 0 0% 89.8%;
+  --ring: 25 95% 53%; /* Orange-500 */
+
+  --radius: 0.5rem;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+/*@theme inline {*/
+/*  --color-background: var(--background);*/
+/*  --color-foreground: var(--foreground);*/
+/*  !*--font-sans: var(--font-geist-sans);*!*/
+/*  !*--font-mono: var(--font-geist-mono);*!*/
+/*}*/
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
@@ -23,4 +77,104 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Custom utility classes pentru noua paletă */
+@layer utilities {
+  .text-primary-orange {
+    @apply text-orange-500;
+  }
+
+  .bg-primary-orange {
+    @apply bg-orange-500;
+  }
+
+  .border-primary-orange {
+    @apply border-orange-500;
+  }
+
+  .gradient-primary {
+    background: linear-gradient(135deg, rgb(249 115 22) 0%, rgb(234 88 12) 100%);
+  }
+
+  .gradient-neutral {
+    background: linear-gradient(135deg, rgb(64 64 64) 0%, rgb(38 38 38) 100%);
+  }
+}
+
+/* CSS pentru FAQ cu details/summary nativ - SEO perfect */
+
+/* Stilizare pentru details/summary */
+.faq-details {
+  @apply bg-white border border-zinc-200 rounded-2xl overflow-hidden;
+  transition: all 0.3s ease;
+}
+
+.faq-details:hover {
+  @apply shadow-lg;
+}
+
+.faq-details[open] {
+  @apply shadow-lg;
+}
+
+/* Stilizare summary */
+.faq-summary {
+  @apply px-6 py-6 cursor-pointer list-none;
+  transition: background-color 0.2s ease;
+}
+
+.faq-summary:hover {
+  @apply bg-zinc-50;
+}
+
+.faq-summary:focus {
+  @apply outline-none ring-2 ring-zinc-300;
+  outline-offset: -2px;
+}
+
+/* Ascunde marcatorul default */
+.faq-summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-summary::marker {
+  display: none;
+}
+
+/* Iconita chevron */
+.faq-chevron {
+  @apply transform transition-transform duration-300;
+}
+
+.faq-details[open] .faq-chevron {
+  @apply rotate-180;
+}
+
+/* Animație pentru content */
+.faq-content {
+  animation: fadeInDown 0.3s ease-out;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+  .faq-summary {
+    @apply px-4 py-5;
+  }
+
+  .faq-content {
+    @apply px-4 pb-5;
+  }
 }
