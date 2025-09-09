@@ -38,7 +38,7 @@ export default function Header() {
                             className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2.5 rounded-xl font-medium transition-all flex items-center space-x-2 transform hover:scale-105 shadow-lg hover:shadow-xl"
                         >
                             <Phone className="w-4 h-4"/>
-                            <span>0742 123 456</span>
+                            <span>0762 685 597</span>
                         </a>
                     </nav>
 

@@ -46,14 +46,15 @@ export default function CTA() {
                 <ScrollReveal>
                     <div className="text-center mb-16">
                         <h2 className="text-4xl md:text-6xl font-bold mb-6">
-                            Trimite acum pachetul!
+                            Rezerva transportul acum!
                         </h2>
                         <p className="text-xl md:text-2xl text-neutral-300 mb-4 max-w-4xl mx-auto">
-                            Nu mai astepta! Suna acum si rezerva-ti locul pentru urmatorul transport
-                            catre Iasi, Bucuresti sau Brasov.
+                            Nu mai astepta! Suna acum si rezerva-ti locul pentru transport persoane sau
+                            trimite pachetul catre Iasi, Bucuresti sau Brasov.
                         </p>
                         <p className="text-lg text-neutral-400 mb-12 max-w-3xl mx-auto">
-                            Suntem disponibili 24/7 pentru comenzi urgente. Livrare garantata in maximum 48 de ore.
+                            Suntem disponibili 24/7 pentru rezervari urgente si comenzi speciale.
+                            Transport garantat si livrare in maximum 48 de ore.
                         </p>
 
                         {/* Action Buttons */}

@@ -50,7 +50,7 @@ export default function MobileMenuToggle() {
                             className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-3 rounded-xl font-medium flex items-center justify-center space-x-2 shadow-lg"
                         >
                             <Phone className="w-4 h-4" />
-                            <span>0742 123 456</span>
+                            <span>0762 685 597</span>
                         </a>
                     </nav>
                 </div>
