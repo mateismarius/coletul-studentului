@@ -359,30 +359,30 @@ export default function Prices() {
                     </div>
                 </ScrollReveal>
 
-                {/* Final Info */}
-                <ScrollReveal>
-                    <div className="bg-gradient-to-br from-orange-50 to-neutral-50 border border-orange-100 rounded-3xl p-8 text-center">
-                        <h4 className="font-bold text-neutral-900 mb-6 text-xl">Informatii importante</h4>
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 text-sm text-neutral-600">
-                            <div className="flex items-center justify-center space-x-2">
-                                <Check className="w-4 h-4 text-green-600" />
-                                <span>Asigurare inclusa</span>
-                            </div>
-                            <div className="flex items-center justify-center space-x-2">
-                                <Check className="w-4 h-4 text-green-600" />
-                                <span>Plata numerar sau transfer bancar</span>
-                            </div>
-                            <div className="flex items-center justify-center space-x-2">
-                                <Check className="w-4 h-4 text-green-600" />
-                                <span>Program flexibil</span>
-                            </div>
-                            <div className="flex items-center justify-center space-x-2">
-                                <Check className="w-4 h-4 text-green-600" />
-                                <span>Rezervari 24/7</span>
-                            </div>
-                        </div>
-                    </div>
-                </ScrollReveal>
+                {/*/!* Final Info *!/*/}
+                {/*<ScrollReveal>*/}
+                {/*    <div className="bg-gradient-to-br from-orange-50 to-neutral-50 border border-orange-100 rounded-3xl p-8 text-center">*/}
+                {/*        <h4 className="font-bold text-neutral-900 mb-6 text-xl">Informatii importante</h4>*/}
+                {/*        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 text-sm text-neutral-600">*/}
+                {/*            <div className="flex items-center justify-center space-x-2">*/}
+                {/*                <Check className="w-4 h-4 text-green-600" />*/}
+                {/*                <span>Asigurare inclusa</span>*/}
+                {/*            </div>*/}
+                {/*            <div className="flex items-center justify-center space-x-2">*/}
+                {/*                <Check className="w-4 h-4 text-green-600" />*/}
+                {/*                <span>Plata numerar sau transfer bancar</span>*/}
+                {/*            </div>*/}
+                {/*            <div className="flex items-center justify-center space-x-2">*/}
+                {/*                <Check className="w-4 h-4 text-green-600" />*/}
+                {/*                <span>Program flexibil</span>*/}
+                {/*            </div>*/}
+                {/*            <div className="flex items-center justify-center space-x-2">*/}
+                {/*                <Check className="w-4 h-4 text-green-600" />*/}
+                {/*                <span>Rezervari 24/7</span>*/}
+                {/*            </div>*/}
+                {/*        </div>*/}
+                {/*    </div>*/}
+                {/*</ScrollReveal>*/}
             </div>
         </section>
     );
