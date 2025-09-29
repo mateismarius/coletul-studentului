@@ -19,8 +19,8 @@ export const viewport: Viewport = {
 // SEO Metadata pentru pagina principală
 export const metadata: Metadata = {
     // Basic SEO
-    title: 'Coletul Studentului - Transport Persoane si Coletarie Studenti | Vaslui, Buzau, Bacau, Vrancea → Iasi, Bucuresti, Brasov',
-    description: 'Transport persoane sigur si coletarie rapida pentru studenti din Vaslui, Vrancea, Buzau, Bacau catre Iasi, Bucuresti, Brasov. Calatorie confortabila + livrare pachete, mancare de acasa, medicamente la camin. Rezervari 24/7.',
+    title: 'Coletul Studentului - Transport Colete pentru Studenti | Vaslui, Buzau, Bacau, Vrancea → Iasi, Bucuresti, Brasov',
+    description: 'Serviciu de coletarie rapida pentru studentii din Vaslui, Vrancea, Buzau, Bacau catre Iasi, Bucuresti, Brasov. Livrare pachete, mancare de acasa, medicamente la camin. Rezervari 24/7.',
 
     // Keywords pentru România
     keywords: [
@@ -33,10 +33,8 @@ export const metadata: Metadata = {
         'Bacau Brasov transport',
         'Vrancea transport studenti',
         'mancare acasa studenti',
-        'transport camin',
         'livrare camin',
         'calatorie studenti',
-        'transport parinti',
         'rezervari transport studenti',
         'coletarie Vaslui',
         'coletarie Buzau',
