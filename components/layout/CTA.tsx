@@ -134,9 +134,9 @@ export default function CTA() {
                         <div className="bg-gradient-to-r from-orange-400 to-orange-500 text-white rounded-2xl p-6 inline-block mb-8 shadow-lg">
                             <div className="flex items-center space-x-2 justify-center">
                                 <WalletCards className="w-5 h-5" />
-                                <span className="font-bold text-lg">Card de fidelitate: 5 + 1 gratis</span>
+                                <span className="font-bold text-lg">Card de fidelitate: 4 + 1 gratis</span>
                             </div>
-                            <p className="text-sm mt-2 opacity-90">La 5 colete trimise primesti o livrare gratis</p>
+                            <p className="text-sm mt-2 opacity-90">La 4 colete trimise primesti o livrare gratis</p>
                         </div>
 
                         <p className="text-xl text-neutral-300 mb-8">
