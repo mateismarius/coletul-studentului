@@ -63,7 +63,7 @@ export const metadata: Metadata = {
         url: 'https://coletul-studentului.ro/',
         siteName: 'Coletul Studentului',
         title: 'Coletul Studentului - Transport Colete pentru Studenti',
-        description: 'Serviciu de coletarie rapida pentru studenti din Vaslui, Vrancea, Buzau, Bacau catre Iasi, Bucuresti, Brasov. Livrare sigura la camin sau adrese private.',
+        description: 'Serviciu de coletarie rapida pentru studentii din Vaslui, Vrancea, Buzau, Bacau catre Iasi, Bucuresti, Brasov. Livrare sigura la camin sau adrese private.',
         images: [
             {
                 url: 'https://coletul-studentului.ro/images/og-image.jpg',
