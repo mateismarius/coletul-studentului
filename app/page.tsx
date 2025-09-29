@@ -62,14 +62,14 @@ export const metadata: Metadata = {
         locale: 'ro_RO',
         url: 'https://coletul-studentului.ro/',
         siteName: 'Coletul Studentului',
-        title: 'Coletul Studentului - Transport Persoane si Coletarie pentru Studenti',
-        description: 'Transport persoane sigur si coletarie rapida pentru studenti din Vaslui, Vrancea, Buzau, Bacau catre Iasi, Bucuresti, Brasov. Calatorie confortabila + livrare pachete la camin.',
+        title: 'Coletul Studentului - Transport Colete pentru Studenti',
+        description: 'Serviciu de coletarie rapida pentru studenti din Vaslui, Vrancea, Buzau, Bacau catre Iasi, Bucuresti, Brasov. Livrare sigura la camin sau adrese private.',
         images: [
             {
                 url: 'https://coletul-studentului.ro/images/og-image.jpg',
                 width: 1200,
                 height: 630,
-                alt: 'Coletul Studentului - Transport si Coletarie pentru Studenti',
+                alt: 'Coletul Studentului - Coletarie pentru Studenti',
             },
         ],
     },
@@ -101,7 +101,7 @@ const generateStructuredData = () => {
         '@context': 'https://schema.org',
         '@type': 'TransportationCompany',
         name: 'Coletul Studentului',
-        description: 'Transport persoane sigur si coletarie rapida pentru studenti',
+        description: 'Transport pachete rapid si sigur pentru studenti',
         url: 'https://coletul-studentului.ro/',
         telephone: '+40775538021',
         address: {
