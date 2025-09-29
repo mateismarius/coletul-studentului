@@ -1,5 +1,5 @@
 import React from 'react';
-import { Package, MapPin, Clock, Shield, Phone } from 'lucide-react';
+import { MapPin, Clock, Shield, Phone, Building2 } from 'lucide-react';
 import SlideUp from '@/components/animations/SlideUp';
 import FadeIn from '@/components/animations/FadeIn';
 import StaggerContainer from '@/components/animations/StaggerContainer';
@@ -36,13 +36,13 @@ export default function Hero() {
 
                     <SlideUp delay={0.4}>
                         <p className="text-xl md:text-2xl text-neutral-600 mb-4 max-w-4xl mx-auto">
-                            Transport sigur pentru persoane si livrari rapide din Vaslui, Vrancea, Buzau, Bacau catre Iasi, Bucuresti si Brasov
+                            Livrari sigure si rapide din Vaslui, Vrancea, Buzau, Bacau catre Iasi, Bucuresti si Brasov
                         </p>
                     </SlideUp>
 
                     <SlideUp delay={0.6}>
                         <p className="text-lg text-neutral-500 mb-12 max-w-3xl mx-auto">
-                            Calatorie confortabila pentru studenti si parinti, plus livrare pentru pachete, mancare de acasa,
+                            Livrare pachete, mancare de acasa,
                             medicamente si tot ce au nevoie copiii tai la facultate.
                         </p>
                     </SlideUp>
@@ -51,7 +51,7 @@ export default function Hero() {
                         <div className="flex flex-col sm:flex-row justify-center gap-4 mb-16">
                             <HoverLift>
                                 <a
-                                    href="tel:0742123456"
+                                    href="tel:0775538021"
                                     className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-2xl font-semibold text-lg transition-all flex items-center justify-center space-x-3 min-w-[200px] shadow-lg hover:shadow-xl"
                                 >
                                     <Phone className="w-5 h-5" />
@@ -60,7 +60,7 @@ export default function Hero() {
                             </HoverLift>
                             <HoverLift>
                                 <a
-                                    href="https://wa.me/40742123456"
+                                    href="https://wa.me/40775538021"
                                     className="border-2 border-neutral-300 hover:border-orange-300 text-neutral-700 hover:text-orange-600 px-8 py-4 rounded-2xl font-semibold text-lg transition-all flex items-center justify-center space-x-3 min-w-[200px] bg-white hover:bg-orange-50"
                                 >
                                     <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -77,9 +77,9 @@ export default function Hero() {
                 <StaggerContainer className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 mb-16">
                     <StaggerItem>
                         <HoverLift className="bg-white/80 backdrop-blur-sm border border-neutral-200 rounded-2xl p-6 text-center">
-                            <Package className="w-8 h-8 text-orange-500 mx-auto mb-3" />
-                            <div className="text-2xl font-bold text-neutral-900 mb-1">500+</div>
-                            <div className="text-sm text-neutral-600">Pachete livrate</div>
+                            <Building2 className="w-8 h-8 text-orange-500 mx-auto mb-3" />
+                            <div className="text-2xl font-bold text-neutral-900 mb-1">10</div>
+                            <div className="text-sm text-neutral-600">Localitati</div>
                         </HoverLift>
                     </StaggerItem>
 
@@ -113,13 +113,12 @@ export default function Hero() {
                     <div className="bg-white/50 backdrop-blur-sm border border-neutral-200 rounded-3xl p-8 text-center">
                         <h3 className="text-2xl font-bold text-neutral-900 mb-4">Rute principale</h3>
                         <div className="flex flex-wrap justify-center items-center gap-4 text-neutral-600">
-                            <span className="bg-orange-50 border border-orange-200 text-orange-700 px-4 py-2 rounded-xl font-medium">Vaslui → Iasi</span>
+                            <span className="bg-orange-50 border border-orange-200 text-orange-700 px-4 py-2 rounded-xl font-medium">Focsani → Tecuci → Barlad → Vaslui → Iasi</span>
                             <span className="text-neutral-400">•</span>
-                            <span className="bg-orange-50 border border-orange-200 text-orange-700 px-4 py-2 rounded-xl font-medium">Buzau → Bucuresti</span>
+                            <span className="bg-orange-50 border border-orange-200 text-orange-700 px-4 py-2 rounded-xl font-medium">Focsani → Ramnicu Sarat → Buzau → Bucuresti</span>
                             <span className="text-neutral-400">•</span>
-                            <span className="bg-orange-50 border border-orange-200 text-orange-700 px-4 py-2 rounded-xl font-medium">Bacau → Brasov</span>
-                            <span className="text-neutral-400">•</span>
-                            <span className="bg-orange-50 border border-orange-200 text-orange-700 px-4 py-2 rounded-xl font-medium">Vrancea → toate orasele</span>
+                            <span className="bg-orange-50 border border-orange-200 text-orange-700 px-4 py-2 rounded-xl font-medium">Focsani → Adjud → Onesti → Brasov</span>
+
                         </div>
                     </div>
                 </FadeIn>

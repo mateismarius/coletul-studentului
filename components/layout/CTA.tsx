@@ -1,7 +1,6 @@
 import React from 'react';
-import { Phone, MessageCircle, Clock, Shield, Heart, ArrowRight } from 'lucide-react';
+import { Phone, MessageCircle, Clock, Shield, Heart, ArrowRight, WalletCards } from 'lucide-react';
 import ScrollReveal from '@/components/animations/ScrollReveal';
-import FadeIn from '@/components/animations/FadeIn';
 import HoverLift from '@/components/animations/HoverLift';
 import FloatingElements from '@/components/animations/FloatingElements';
 import StaggerContainer from '@/components/animations/StaggerContainer';
@@ -11,13 +10,13 @@ export default function CTA() {
     const urgencyReasons = [
         {
             icon: Clock,
-            title: "Transport zilnic",
-            description: "Plecam in fiecare zi, nu pierde ocazia"
+            title: "Transport saptamanal",
+            description: "Plecam in fiecare weekend, nu pierde ocazia"
         },
         {
             icon: Shield,
             title: "Locuri limitate",
-            description: "Rezerva-ti locul pentru urmatoarea cursa"
+            description: "Rezerva-ti locul pentru urmatoarul colet"
         },
         {
             icon: Heart,
@@ -49,30 +48,30 @@ export default function CTA() {
                             Rezerva transportul acum!
                         </h2>
                         <p className="text-xl md:text-2xl text-neutral-300 mb-4 max-w-4xl mx-auto">
-                            Nu mai astepta! Suna acum si rezerva-ti locul pentru transport persoane sau
-                            trimite pachetul catre Iasi, Bucuresti sau Brasov.
+                            Nu mai astepta! Suna acum si rezerva-ti locul
+                            pentru pachetul tau catre Iasi, Bucuresti sau Brasov.
                         </p>
                         <p className="text-lg text-neutral-400 mb-12 max-w-3xl mx-auto">
-                            Suntem disponibili 24/7 pentru rezervari urgente si comenzi speciale.
-                            Transport garantat si livrare in maximum 48 de ore.
+                            Suntem disponibili 24/7 pentru rezervari si comenzi speciale.
+                            Transport garantat si livrare in aceeasi zi.
                         </p>
 
                         {/* Action Buttons */}
                         <div className="flex flex-col sm:flex-row justify-center gap-6 mb-16">
                             <HoverLift>
                                 <a
-                                    href="tel:0742123456"
+                                    href="tel:0775538021"
                                     className="bg-orange-500 hover:bg-orange-600 text-white px-10 py-5 rounded-2xl font-bold text-xl transition-all flex items-center justify-center space-x-3 min-w-[280px] group shadow-2xl hover:shadow-orange-500/25"
                                 >
                                     <Phone className="w-6 h-6" />
-                                    <span>Suna: 0742 123 456</span>
+                                    <span>Suna: 0775 538 021</span>
                                     <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                                 </a>
                             </HoverLift>
 
                             <HoverLift>
                                 <a
-                                    href="https://wa.me/40742123456?text=Buna%20ziua!%20Vreau%20sa%20trimit%20un%20pachet%20pentru%20studentul%20meu."
+                                    href="https://wa.me/40775538021?text=Buna%20ziua!%20Vreau%20sa%20trimit%20un%20pachet%20pentru%20studentul%20meu."
                                     className="bg-green-600 hover:bg-green-500 text-white px-10 py-5 rounded-2xl font-bold text-xl transition-all flex items-center justify-center space-x-3 min-w-[280px] group shadow-2xl hover:shadow-green-500/25"
                                 >
                                     <MessageCircle className="w-6 h-6" />
@@ -101,43 +100,43 @@ export default function CTA() {
                     ))}
                 </StaggerContainer>
 
-                {/* Trust Signals */}
-                <FadeIn delay={0.6}>
-                    <div className="bg-white/5 backdrop-blur-sm rounded-3xl p-8 border border-white/10">
-                        <div className="text-center mb-8">
-                            <h3 className="text-2xl font-bold mb-4">De ce sa ne alegi chiar acum?</h3>
-                        </div>
+                {/*/!* Trust Signals *!/*/}
+                {/*<FadeIn delay={0.6}>*/}
+                {/*    <div className="bg-white/5 backdrop-blur-sm rounded-3xl p-8 border border-white/10">*/}
+                {/*        <div className="text-center mb-8">*/}
+                {/*            <h3 className="text-2xl font-bold mb-4">De ce sa ne alegi chiar acum?</h3>*/}
+                {/*        </div>*/}
 
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                            <div className="text-center">
-                                <div className="text-3xl font-bold mb-2 text-orange-400">500+</div>
-                                <div className="text-neutral-400 text-sm">Pachete livrate cu succes</div>
-                            </div>
-                            <div className="text-center">
-                                <div className="text-3xl font-bold mb-2 text-orange-400">24h</div>
-                                <div className="text-neutral-400 text-sm">Timp mediu de livrare</div>
-                            </div>
-                            <div className="text-center">
-                                <div className="text-3xl font-bold mb-2 text-orange-400">99.8%</div>
-                                <div className="text-neutral-400 text-sm">Rata de satisfactie</div>
-                            </div>
-                            <div className="text-center">
-                                <div className="text-3xl font-bold mb-2 text-orange-400">0</div>
-                                <div className="text-neutral-400 text-sm">Pachete pierdute</div>
-                            </div>
-                        </div>
-                    </div>
-                </FadeIn>
+                {/*        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">*/}
+                {/*            <div className="text-center">*/}
+                {/*                <div className="text-3xl font-bold mb-2 text-orange-400">500+</div>*/}
+                {/*                <div className="text-neutral-400 text-sm">Pachete livrate cu succes</div>*/}
+                {/*            </div>*/}
+                {/*            <div className="text-center">*/}
+                {/*                <div className="text-3xl font-bold mb-2 text-orange-400">24h</div>*/}
+                {/*                <div className="text-neutral-400 text-sm">Timp mediu de livrare</div>*/}
+                {/*            </div>*/}
+                {/*            <div className="text-center">*/}
+                {/*                <div className="text-3xl font-bold mb-2 text-orange-400">99.8%</div>*/}
+                {/*                <div className="text-neutral-400 text-sm">Rata de satisfactie</div>*/}
+                {/*            </div>*/}
+                {/*            <div className="text-center">*/}
+                {/*                <div className="text-3xl font-bold mb-2 text-orange-400">0</div>*/}
+                {/*                <div className="text-neutral-400 text-sm">Pachete pierdute</div>*/}
+                {/*            </div>*/}
+                {/*        </div>*/}
+                {/*    </div>*/}
+                {/*</FadeIn>*/}
 
                 {/* Final Push */}
                 <ScrollReveal>
                     <div className="text-center mt-16">
                         <div className="bg-gradient-to-r from-orange-400 to-orange-500 text-white rounded-2xl p-6 inline-block mb-8 shadow-lg">
                             <div className="flex items-center space-x-2 justify-center">
-                                <Clock className="w-5 h-5" />
-                                <span className="font-bold text-lg">Oferta limitata: Primul transport GRATUIT!</span>
+                                <WalletCards className="w-5 h-5" />
+                                <span className="font-bold text-lg">Card de fidelitate: 5 + 1 gratis</span>
                             </div>
-                            <p className="text-sm mt-2 opacity-90">Valabil doar pentru primii 50 de clienti noi</p>
+                            <p className="text-sm mt-2 opacity-90">La 5 colete trimise primesti o livrare gratis</p>
                         </div>
 
                         <p className="text-xl text-neutral-300 mb-8">
@@ -148,7 +147,7 @@ export default function CTA() {
                             <div className="inline-flex items-center space-x-4 bg-white/10 rounded-2xl px-6 py-4">
                                 <Phone className="w-6 h-6 text-orange-400" />
                                 <div>
-                                    <div className="font-bold text-xl">0742 123 456</div>
+                                    <div className="font-bold text-xl">0775 538 021</div>
                                     <div className="text-neutral-400 text-sm">Disponibili 24/7</div>
                                 </div>
                             </div>

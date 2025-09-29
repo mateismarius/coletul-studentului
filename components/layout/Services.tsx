@@ -55,17 +55,23 @@ export default function Services() {
         {
             icon: Clock,
             title: "Livrare in 24-48h",
-            description: "Transport rapid intre judete cu confirmare in timp real"
+            description: "Transport rapid intre judete cu confirmare in timp real",
+            color: "from-red-100 to-pink-100",
+            iconColor: "text-red-600"
         },
         {
             icon: Shield,
             title: "100% Siguranta",
-            description: "Toate pachetele sunt asigurate si manipulate cu grija maxima"
+            description: "Toate pachetele sunt asigurate si manipulate cu grija maxima",
+            color: "from-green-100 to-emerald-100",
+            iconColor: "text-green-600"
         },
         {
             icon: Package,
             title: "Orice dimensiune",
-            description: "De la plicuri mici la pachete mari, acceptam orice colet"
+            description: "De la plicuri mici la pachete mari, acceptam orice colet",
+            color: "from-yellow-100 to-orange-100",
+            iconColor: "text-yellow-600"
         }
     ];
 
@@ -116,8 +122,8 @@ export default function Services() {
                             {features.map((feature, index) => (
                                 <HoverLift key={index} className="text-center">
                                     <div className="bg-white rounded-2xl p-6 h-full shadow-sm">
-                                        <div className="w-12 h-12 bg-zinc-100 rounded-xl flex items-center justify-center mx-auto mb-4">
-                                            <feature.icon className="w-6 h-6 text-zinc-700" />
+                                        <div className={`w-16 h-16 bg-gradient-to-br ${feature.color} rounded-2xl flex items-center justify-center mx-auto mb-4`}>
+                                            <feature.icon className={`w - 6 h-6 ${feature.iconColor} `} />
                                         </div>
                                         <h4 className="text-lg font-bold text-zinc-900 mb-3">
                                             {feature.title}
@@ -132,54 +138,54 @@ export default function Services() {
                     </div>
                 </ScrollReveal>
 
-                {/* Coverage Map */}
-                <ScrollReveal>
-                    <div className="mt-20 text-center">
-                        <h3 className="text-3xl font-bold text-zinc-900 mb-8">
-                            Acoperire geografica
-                        </h3>
-                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-                            <div>
-                                <h4 className="text-xl font-semibold text-zinc-800 mb-4">Ridicare pachete din:</h4>
-                                <div className="grid grid-cols-2 gap-4">
-                                    <div className="bg-zinc-50 rounded-xl p-4">
-                                        <div className="font-semibold text-zinc-900">Vaslui</div>
-                                        <div className="text-sm text-zinc-600">Toate localitatile</div>
-                                    </div>
-                                    <div className="bg-zinc-50 rounded-xl p-4">
-                                        <div className="font-semibold text-zinc-900">Vrancea</div>
-                                        <div className="text-sm text-zinc-600">Focsani si imprejurimi</div>
-                                    </div>
-                                    <div className="bg-zinc-50 rounded-xl p-4">
-                                        <div className="font-semibold text-zinc-900">Buzau</div>
-                                        <div className="text-sm text-zinc-600">Zona metropolitana</div>
-                                    </div>
-                                    <div className="bg-zinc-50 rounded-xl p-4">
-                                        <div className="font-semibold text-zinc-900">Bacau</div>
-                                        <div className="text-sm text-zinc-600">Municipiul si satele</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div>
-                                <h4 className="text-xl font-semibold text-zinc-800 mb-4">Livrare pachete in:</h4>
-                                <div className="space-y-4">
-                                    <div className="bg-gradient-to-r from-zinc-100 to-zinc-50 rounded-xl p-4">
-                                        <div className="font-semibold text-zinc-900">Iasi</div>
-                                        <div className="text-sm text-zinc-600">Camine universitare si adrese private</div>
-                                    </div>
-                                    <div className="bg-gradient-to-r from-zinc-100 to-zinc-50 rounded-xl p-4">
-                                        <div className="font-semibold text-zinc-900">Bucuresti</div>
-                                        <div className="text-sm text-zinc-600">Toate sectoarele si caminele</div>
-                                    </div>
-                                    <div className="bg-gradient-to-r from-zinc-100 to-zinc-50 rounded-xl p-4">
-                                        <div className="font-semibold text-zinc-900">Brasov</div>
-                                        <div className="text-sm text-zinc-600">Campus universitar si centru</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </ScrollReveal>
+                {/*/!* Coverage Map *!/*/}
+                {/*<ScrollReveal>*/}
+                {/*    <div className="mt-20 text-center">*/}
+                {/*        <h3 className="text-3xl font-bold text-zinc-900 mb-8">*/}
+                {/*            Acoperire geografica*/}
+                {/*        </h3>*/}
+                {/*        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">*/}
+                {/*            <div>*/}
+                {/*                <h4 className="text-xl font-semibold text-zinc-800 mb-4">Ridicare pachete din:</h4>*/}
+                {/*                <div className="grid grid-cols-2 gap-4">*/}
+                {/*                    <div className="bg-green-50 rounded-xl p-4">*/}
+                {/*                        <div className="font-semibold text-zinc-900">Vaslui</div>*/}
+                {/*                        <div className="text-sm text-zinc-600">Zona metropolitana</div>*/}
+                {/*                    </div>*/}
+                {/*                    <div className="bg-sky-50 rounded-xl p-4">*/}
+                {/*                        <div className="font-semibold text-zinc-900">Vrancea</div>*/}
+                {/*                        <div className="text-sm text-zinc-600">Focsani si imprejurimi</div>*/}
+                {/*                    </div>*/}
+                {/*                    <div className="bg-red-50 rounded-xl p-4">*/}
+                {/*                        <div className="font-semibold text-zinc-900">Buzau</div>*/}
+                {/*                        <div className="text-sm text-zinc-600">Zona metropolitana</div>*/}
+                {/*                    </div>*/}
+                {/*                    <div className="bg-amber-50 rounded-xl p-4">*/}
+                {/*                        <div className="font-semibold text-zinc-900">Bacau</div>*/}
+                {/*                        <div className="text-sm text-zinc-600">Municipiul si satele</div>*/}
+                {/*                    </div>*/}
+                {/*                </div>*/}
+                {/*            </div>*/}
+                {/*            <div>*/}
+                {/*                <h4 className="text-xl font-semibold text-zinc-800 mb-4">Livrare pachete in:</h4>*/}
+                {/*                <div className="space-y-4">*/}
+                {/*                    <div className="bg-gradient-to-r from-purple-100 to-purple-50 rounded-xl p-4">*/}
+                {/*                        <div className="font-semibold text-zinc-900">Iasi</div>*/}
+                {/*                        <div className="text-sm text-zinc-600">Camine universitare si adrese private</div>*/}
+                {/*                    </div>*/}
+                {/*                    <div className="bg-gradient-to-r from-blue-100 to-blue-50 rounded-xl p-4">*/}
+                {/*                        <div className="font-semibold text-zinc-900">Bucuresti</div>*/}
+                {/*                        <div className="text-sm text-zinc-600">Toate sectoarele si caminele</div>*/}
+                {/*                    </div>*/}
+                {/*                    <div className="bg-gradient-to-r from-cyan-100 to-cyan-50 rounded-xl p-4">*/}
+                {/*                        <div className="font-semibold text-zinc-900">Brasov</div>*/}
+                {/*                        <div className="text-sm text-zinc-600">Campus universitar si adrese private</div>*/}
+                {/*                    </div>*/}
+                {/*                </div>*/}
+                {/*            </div>*/}
+                {/*        </div>*/}
+                {/*    </div>*/}
+                {/*</ScrollReveal>*/}
             </div>
         </section>
     );

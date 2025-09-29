@@ -13,15 +13,15 @@ export default function FAQ() {
     const faqs = [
         {
             question: "Din ce judete ridicati pachete?",
-            answer: "Ridicam pachete din Vaslui, Vrancea (Focsani), Buzau si Bacau. Acoperim atat municipiile cat si localitatile din imprejurimi. Pentru adrese specifice, suna-ne sa confirmi daca ajungem in zona ta."
+            answer: "Ridicam pachete din Vaslui(Barlad si Vaslui), Vrancea (Focsani si imprejurimi, Adjud), Buzau (Buzau si Ramnicu Sarat), Galati (Tecuci) si Bacau(Onesti). Pentru adrese specifice, sunati-ne sa va confirmam daca ajungem in zona dvs."
         },
         {
             question: "In ce orase faceti livrari pentru studenti?",
-            answer: "Livram pachete in Iasi, Bucuresti si Brasov, direct la caminele universitare sau la adrese private. Cunoastem toate caminele din aceste orase si avem acces in campusuri."
+            answer: "Livram pachete in Iasi, Bucuresti si Brasov, direct la caminele universitare sau la adrese private. Cunoastem toate caminele si campususrile din aceste orase."
         },
         {
             question: "Cat dureaza transportul pachetelor?",
-            answer: "Transportul standard dureaza 2-3 zile, Premium 24-48 ore, iar Express garantam livrarea in 24 de ore. Timpul depinde de distanta si de ruta. Pentru urgente, avem curse speciale."
+            answer: "Timpul depinde de distanta si de ruta. Livrarea se face in aceeasi zi."
         },
         {
             question: "Ce tip de pachete acceptati?",
@@ -29,35 +29,31 @@ export default function FAQ() {
         },
         {
             question: "Cum platesc transportul?",
-            answer: "Poti plati cash la ridicare, cash la livrare, transfer bancar sau card bancar. Pentru clientii fideli oferim si plata in rate sau abonamente lunare cu preturi reduse."
+            answer: "Poti plati cash la ridicare, cash la livrare sau transfer bancar. Pentru clientii fideli oferim diferite promotii care se actualizeaza periodic."
         },
         {
             question: "Sunt pachete asigurate?",
             answer: "Da, toate pachetele sunt asigurate automat. Asigurarea de baza este inclusa in pret, iar pentru valori mari oferim si asigurare extinsa. In cazul unor daune, compensam full valoarea declarata."
         },
         {
-            question: "Pot urmari pachetul meu?",
-            answer: "Da, primesti SMS cu status-ul pachetului si poti suna oricand sa afli locatia exacta. Pachetele Premium si Express au si urmarire GPS in timp real prin aplicatia noastra."
-        },
-        {
             question: "Lucrati si in weekend?",
-            answer: "Da, lucram si sambata si duminica pentru urgente. Cursele de weekend au un supliment de 5 lei, dar garantam ca pachetul ajunge la destinatie chiar si in zilele libere."
+            answer: "Da, ridicarile si livrarile se fac sambata si duminica."
         },
         {
             question: "Ce se intampla daca studentul nu e acasa?",
-            answer: "Suntem flexibili! Lasam pachetul la portarul caminului, la un coleg de camera sau programam o noua livrare. Pentru adrese private, incercam de 3 ori sa livram, apoi te contactam."
+            answer: "Suntem flexibili! Lasam pachetul la portarul caminului, la un coleg de camera sau orice alta metoda aleasa de client."
         },
         {
             question: "Oferiti reduceri pentru transport regulat?",
-            answer: "Absolut! Pentru pachete recurente (saptamanal/lunar) oferim reduceri de pana la 30%. Familiile cu mai multi studenti beneficiaza de tarife speciale. Primul transport e gratuit pentru clientii noi."
+            answer: "Absolut! Pentru pachete recurente (saptamanal/lunar) oferim reduceri pe care le actualizam periodic. Va rugam sa ne contactati pentru mai multe detalii"
         },
         {
             question: "Pot trimite mancare proaspata?",
-            answer: "Da, avem experienta cu mancarea de acasa. Folosim ambalaje speciale cu gheata pentru produsele perisabile. Mancarurile gatite trebuie sa fie bine ambalate si etichetate cu continutul."
+            answer: "Da, avem experienta cu mancarea de acasa. Folosim autoutilitare speciale cu sistem frigorific pentru produsele perisabile. Mancarurile gatite trebuie sa fie bine ambalate si etanse."
         },
         {
             question: "Ce dimensiuni maxime acceptati?",
-            answer: "Acceptam pachete de toate dimensiunile, de la plicuri mici la cutii mari. Pentru obiecte voluminoase (mobila, electronice mari) avem vehicule speciale, iar pretul se calculeaza individual."
+            answer: "Acceptam pachete de toate dimensiunile, de la plicuri mici la cutii mari. Pentru obiecte voluminoase (mobila, electronice mari) avem tarife speciale, iar pretul se calculeaza individual."
         }
     ];
 
@@ -80,25 +76,25 @@ export default function FAQ() {
                         <p className="text-xl text-zinc-600 mb-8">
                             Tot ce trebuie sa stii despre serviciile noastre de coletarie pentru studenti
                         </p>
-                        <div className="bg-zinc-50 rounded-2xl p-6 inline-block">
-                            <p className="text-zinc-700 mb-4 font-medium">Nu gasesti raspunsul cautat?</p>
-                            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                                <a
-                                    href="tel:0742123456"
-                                    className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-xl font-medium flex items-center space-x-2 hover:bg-zinc-800 transition-colors"
-                                >
-                                    <Phone className="w-4 h-4" />
-                                    <span>0742 123 456</span>
-                                </a>
-                                <a
-                                    href="https://wa.me/40742123456"
-                                    className="bg-green-600 text-white px-6 py-3 rounded-xl font-medium flex items-center space-x-2 hover:bg-green-500 transition-colors"
-                                >
-                                    <MessageCircle className="w-4 h-4" />
-                                    <span>WhatsApp</span>
-                                </a>
-                            </div>
-                        </div>
+                        {/*<div className="bg-zinc-50 rounded-2xl p-6 inline-block">*/}
+                        {/*    <p className="text-zinc-700 mb-4 font-medium">Nu gasesti raspunsul cautat?</p>*/}
+                        {/*    <div className="flex flex-col sm:flex-row gap-4 justify-center">*/}
+                        {/*        <a*/}
+                        {/*            href="tel:0742123456"*/}
+                        {/*            className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-xl font-medium flex items-center space-x-2 hover:bg-zinc-800 transition-colors"*/}
+                        {/*        >*/}
+                        {/*            <Phone className="w-4 h-4" />*/}
+                        {/*            <span>0742 123 456</span>*/}
+                        {/*        </a>*/}
+                        {/*        <a*/}
+                        {/*            href="https://wa.me/40742123456"*/}
+                        {/*            className="bg-green-600 text-white px-6 py-3 rounded-xl font-medium flex items-center space-x-2 hover:bg-green-500 transition-colors"*/}
+                        {/*        >*/}
+                        {/*            <MessageCircle className="w-4 h-4" />*/}
+                        {/*            <span>WhatsApp</span>*/}
+                        {/*        </a>*/}
+                        {/*    </div>*/}
+                        {/*</div>*/}
                     </div>
                 </ScrollReveal>
 
@@ -154,7 +150,7 @@ export default function FAQ() {
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-md mx-auto">
                                 <HoverLift>
                                     <a
-                                        href="tel:0742123456"
+                                        href="tel:0775538021"
                                         className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-4 rounded-xl font-medium transition-colors flex items-center justify-center space-x-2"
                                     >
                                         <Phone className="w-5 h-5" />
@@ -164,7 +160,7 @@ export default function FAQ() {
 
                                 <HoverLift>
                                     <a
-                                        href="https://wa.me/40742123456?text=Buna%20ziua!%20Am%20o%20intrebare%20despre%20serviciile%20de%20coletarie."
+                                        href="https://wa.me/40775538021?text=Buna%20ziua!%20Am%20o%20intrebare%20despre%20serviciile%20de%20coletarie."
                                         className="bg-green-600 text-white border-2 border-zinc-200 hover:border-zinc-300  px-6 py-4 rounded-xl font-medium transition-colors flex items-center justify-center space-x-2"
                                     >
                                         <MessageCircle className="w-5 h-5" />

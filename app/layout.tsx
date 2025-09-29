@@ -11,7 +11,7 @@ const inter = Inter({
 // Metadate globale pentru întregul site
 export const metadata: Metadata = {
     // Metadate de bază care se aplică la toate paginile
-    metadataBase: new URL('https://coletulstudentului.ro'),
+    metadataBase: new URL('https://coletul-studentului.ro'),
 
     // Generator și aplicația
     generator: 'Next.js',
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     // Icons globale
     icons: {
         icon: [
-            { url: '/favicon.ico' },
+            { url: '/favicon.png' },
             { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
             { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
         ],
