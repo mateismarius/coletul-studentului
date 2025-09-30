@@ -179,6 +179,9 @@ export default function Footer() {
                                 <a href="/gdpr" className="hover:text-orange-400 transition-colors">
                                     GDPR
                                 </a>
+                                <a href="/politica-cookies" className="hover:text-orange-400 transition-colors">
+                                    Politica cookies
+                                </a>
                             </div>
                         </div>
 

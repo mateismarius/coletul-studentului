@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import {Inter} from "next/font/google";
 import "./globals.css";
+import CookieConsentBanner from "@/components/layout/CookieConsenterBanner";
 
 const inter = Inter({
     subsets: ['latin'],
@@ -97,6 +98,17 @@ export default function RootLayout({
         <main id="main-content">
             {children}
         </main>
+
+        {/* Cookie Consent Banner - Client Component */}
+        <CookieConsentBanner />
+
+        {/* Google Analytics - se încarcă doar dacă există consimțământ */}
+        {process.env.NODE_ENV === 'production' && process.env.NEXT_PUBLIC_GA_ID && (
+            <script
+                async
+                src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`}
+            />
+        )}
 
         {/* Google Analytics (exemplu) */}
         {process.env.NODE_ENV === 'production' && (
