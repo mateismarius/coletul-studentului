@@ -27,7 +27,7 @@ export default function Hero() {
                 <div className="text-center mb-16">
                     <SlideUp delay={0.2}>
                         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-neutral-900 mb-6 leading-tight">
-                            Transport persoane si
+                            Servicii de
                             <span className="block bg-gradient-to-r from-orange-500 to-orange-600 bg-clip-text text-transparent">
                                 coletarie studenti
                             </span>
