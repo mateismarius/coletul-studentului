@@ -24,7 +24,7 @@ export default function Prices() {
         },
         {
             name: "Brasov",
-            price: "50",
+            price: "In Curand",
             subtitle: "Pret / colet",
             description: "",
             features: [
