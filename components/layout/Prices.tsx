@@ -24,7 +24,7 @@ export default function Prices() {
         },
         {
             name: "Brasov",
-            price: "In Curand",
+            price: "",
             subtitle: "Pret / colet",
             description: "",
             features: [
@@ -33,7 +33,7 @@ export default function Prices() {
                 "Suport telefonic",
                 "Livrare weekend"
             ],
-            popular: false,
+            popular: true,
             maxWeight: "",
             deliveryTime: ""
         },
@@ -295,7 +295,7 @@ export default function Prices() {
                                                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
                                                     <div className="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-4 py-2 rounded-full text-sm font-medium flex items-center space-x-1 shadow-lg">
                                                         <Star className="w-4 h-4 fill-current" />
-                                                        <span>Recomandat</span>
+                                                        <span>In curand</span>
                                                     </div>
                                                 </div>
                                             )}
