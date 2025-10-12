@@ -277,7 +277,7 @@ export default function Prices() {
                         <div className="text-center mb-12">
                             <h3 className="text-3xl font-bold text-neutral-900 mb-4 flex items-center justify-center space-x-2">
                                 <Package className="w-8 h-8 text-orange-500" />
-                                <span>Transport pachete</span>
+                                <span>Livrare colete</span>
                             </h3>
                             <p className="text-neutral-600">Livrare rapida si sigura pentru orice tip de colet</p>
                         </div>
