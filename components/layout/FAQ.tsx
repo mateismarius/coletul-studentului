@@ -27,10 +27,6 @@ export default function FAQ() {
             question: "Ce tip de pachete acceptati?",
             answer: "Acceptam orice tip de colet legal: mancare de acasa, haine, carti, medicamente, electronice, cadouri. Nu transportam substante periculoase, lichide inflamabile sau produse interzise de lege."
         },
-        // {
-        //     question: "Cum platesc transportul?",
-        //     answer: "Poti plati cash la ridicare, cash la livrare sau transfer bancar. Pentru clientii fideli oferim diferite promotii care se actualizeaza periodic."
-        // },
         {
             question: "Sunt pachete asigurate?",
             answer: "Da, toate pachetele sunt asigurate automat. Asigurarea de baza este inclusa in pret, iar pentru valori mari oferim si asigurare extinsa. In cazul unor daune, compensam full valoarea declarata."
