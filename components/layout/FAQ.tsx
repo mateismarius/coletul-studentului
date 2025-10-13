@@ -28,10 +28,6 @@ export default function FAQ() {
             answer: "Acceptam orice tip de colet legal: mancare de acasa, haine, carti, medicamente, electronice, cadouri. Nu transportam substante periculoase, lichide inflamabile sau produse interzise de lege."
         },
         {
-            question: "Sunt pachete asigurate?",
-            answer: "Da, toate pachetele sunt asigurate automat. Asigurarea de baza este inclusa in pret, iar pentru valori mari oferim si asigurare extinsa. In cazul unor daune, compensam full valoarea declarata."
-        },
-        {
             question: "Lucrati si in weekend?",
             answer: "Da, ridicarile si livrarile se fac sambata si duminica."
         },
