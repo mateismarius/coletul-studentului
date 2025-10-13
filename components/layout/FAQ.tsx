@@ -25,7 +25,7 @@ export default function FAQ() {
         },
         {
             question: "Ce tip de pachete acceptati?",
-            answer: "Acceptam orice tip de colet legal: mancare de acasa, haine, carti, medicamente, electronice, cadouri. Nu transportam substante periculoase, lichide inflamabile sau produse interzise de lege."
+            answer: "Acceptam orice tip de colet legal: haine, carti, electronice, cadouri. Nu transportam substante periculoase, lichide inflamabile sau produse interzise de lege."
         },
         {
             question: "Lucrati si in weekend?",
