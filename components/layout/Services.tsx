@@ -62,7 +62,7 @@ export default function Services() {
         {
             icon: Shield,
             title: "100% Siguranta",
-            description: "Toate pachetele sunt asigurate si manipulate cu grija maxima",
+            description: "Toate pachetele sunt manipulate cu grija maxima asigurand livrarea lor in conditii de siguranta",
             color: "from-green-100 to-emerald-100",
             iconColor: "text-green-600"
         },
