@@ -42,8 +42,7 @@ export default function Hero() {
 
                     <SlideUp delay={0.6}>
                         <p className="text-lg text-neutral-500 mb-12 max-w-3xl mx-auto">
-                            Livrare pachete, mancare de acasa,
-                            medicamente si tot ce au nevoie copiii tai la facultate.
+                            Livrare pachete si tot ce au nevoie copiii tai la facultate.
                         </p>
                     </SlideUp>
 
