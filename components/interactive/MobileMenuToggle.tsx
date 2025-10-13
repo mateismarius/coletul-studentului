@@ -32,13 +32,6 @@ export default function MobileMenuToggle() {
                             Servicii
                         </a>
                         <a
-                            href="#preturi"
-                            className="block text-neutral-600 hover:text-neutral-900 transition-colors font-medium py-2"
-                            onClick={() => setIsMenuOpen(false)}
-                        >
-                            Preturi
-                        </a>
-                        <a
                             href="#intrebari"
                             className="block text-neutral-600 hover:text-neutral-900 transition-colors font-medium py-2"
                             onClick={() => setIsMenuOpen(false)}
