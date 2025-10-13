@@ -65,7 +65,7 @@ export default function Footer() {
 
                             <p className="text-neutral-300 mb-6 text-lg leading-relaxed">
                                 Conectam parintii cu studentii prin servicii de coletarie sigure si rapide.
-                                Transportam pachete, mancare de acasa si tot ce au nevoie copiii tai la facultate.
+                                Transportam pachete si tot ce au nevoie copiii tai la facultate.
                             </p>
 
                             <div className="space-y-4">
