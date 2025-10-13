@@ -167,8 +167,8 @@ export default function Home() {
                 {/* Services Section - Server Component */}
                 <Services />
 
-                {/* Prices Section - Server Component */}
-                <Prices />
+                /* {/* Prices Section - Server Component */}
+                <Prices /> */
 
                 {/* CTA Section - Server Component */}
                 <CTA />
