@@ -7,13 +7,13 @@ import HoverLift from '@/components/animations/HoverLift';
 
 export default function Services() {
     const services = [
-        {
-            icon: Heart,
-            title: "Mancare de acasa",
-            description: "Preparate traditionale, conserve, dulciuri si tot ce le face dor de casa",
-            color: "from-red-100 to-pink-100",
-            iconColor: "text-red-600"
-        },
+        // {
+        //     icon: Heart,
+        //     title: "Mancare de acasa",
+        //     description: "Preparate traditionale, conserve, dulciuri si tot ce le face dor de casa",
+        //     color: "from-red-100 to-pink-100",
+        //     iconColor: "text-red-600"
+        // },
         {
             icon: Package,
             title: "Pachete generale",
@@ -21,13 +21,13 @@ export default function Services() {
             color: "from-blue-100 to-cyan-100",
             iconColor: "text-blue-600"
         },
-        {
-            icon: Pill,
-            title: "Medicamente",
-            description: "Livrare sigura si rapida de medicamente cu conditii speciale de transport",
-            color: "from-green-100 to-emerald-100",
-            iconColor: "text-green-600"
-        },
+        // {
+        //     icon: Pill,
+        //     title: "Medicamente",
+        //     description: "Livrare sigura si rapida de medicamente cu conditii speciale de transport",
+        //     color: "from-green-100 to-emerald-100",
+        //     iconColor: "text-green-600"
+        // },
         {
             icon: BookOpen,
             title: "Carti si materiale",
