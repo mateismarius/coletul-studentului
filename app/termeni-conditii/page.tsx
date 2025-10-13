@@ -68,7 +68,6 @@ export default function TermsAndConditions() {
                                     <li><strong>Coletul Studentului / Companie / Noi:</strong> se refera la serviciul de transport persoane si coletarie pentru studenti</li>
                                     <li><strong>Client / Utilizator / Dumneavoastra:</strong> persoana fizica sau juridica care utilizeaza serviciile noastre</li>
                                     <li><strong>Servicii:</strong> servicii de coletarie oferite de Coletul Studentului</li>
-                                    <li><strong>Coletarie:</strong> serviciu de transport pachete, mancare de acasa, medicamente si alte bunuri</li>
                                     <li><strong>Colet:</strong> pachet, obiect sau bunuri trimise prin serviciul de coletarie</li>
                                     <li><strong>Student:</strong> persoana inmatriculata la o institutie de invatamant superior</li>
                                 </ul>
@@ -86,8 +85,7 @@ export default function TermsAndConditions() {
                         </p>
                         <ul className="list-disc list-inside space-y-2 text-neutral-700 mb-6">
                             <li>Pachete generale (documente, cadouri, echipamente)</li>
-                            <li>Mancare de acasa (preparate traditionale, conserve, dulciuri)</li>
-                            <li>Medicamente si produse farmaceutice</li>
+                            
                             <li>Carti, manuale si materiale didactice</li>
                             <li>Haine si incaltaminte</li>
                             <li>Produse alimentare ambalate</li>
@@ -130,35 +128,7 @@ export default function TermsAndConditions() {
                         </ul>
                     </section>
 
-                    {/* 4. Tarife si Plata */}
-                    <section className="mb-12">
-                        <h2 className="text-2xl font-bold text-neutral-900 mb-6">4. Tarife si Modalitati de Plata</h2>
-
-                        <h3 className="text-xl font-semibold text-neutral-900 mb-4">4.1 Structura Tarifelor</h3>
-                        <p className="text-neutral-700 mb-4">
-                            Tarifele sunt afisate transparent pe site si includ:
-                        </p>
-                        <ul className="list-disc list-inside space-y-2 text-neutral-700 mb-6">
-                            <li>Costul transportului pe distanta specificata</li>
-                            <li>Asigurare de baza (RCA pentru transport persoane, asigurare colete)</li>
-                            <li>TVA conform legislatiei in vigoare</li>
-                            <li>Servicii de baza (suport telefonic)</li>
-                        </ul>
-
-                        <h3 className="text-xl font-semibold text-neutral-900 mb-4">4.2 Modalitati de Plata</h3>
-                        <ul className="list-disc list-inside space-y-2 text-neutral-700 mb-6">
-                            <li>Cash la ridicare (coletarie) sau la plecare (transport persoane)</li>
-                            <li>Cash la livrare / destinatie</li>
-                            <li>Transfer bancar (cu confirmare inainte de transport)</li>
-                            <li>Abonamente - plata in avans obligatorie</li>
-                        </ul>
-
-                        <h3 className="text-xl font-semibold text-neutral-900 mb-4">4.3 Taxe Suplimentare</h3>
-                        <ul className="list-disc list-inside space-y-2 text-neutral-700">
-                            <li>Ridicare/livrare in afara zonelor standard: tarif negociat</li>
-                            <li>Asigurare extinsa pentru valori mari: 2% din valoarea declarata</li>
-                        </ul>
-                    </section>
+                    
 
                     {/* 5. Responsabilitati */}
                     <section className="mb-12">
