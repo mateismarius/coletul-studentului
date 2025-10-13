@@ -65,7 +65,7 @@ export default function TermsAndConditions() {
                             <div>
                                 <h3 className="font-semibold text-neutral-900 mb-2">1.1 Definitii</h3>
                                 <ul className="space-y-2 text-neutral-700">
-                                    <li><strong>Coletul Studentului / Companie / Noi:</strong> se refera la serviciul de transport persoane si coletarie pentru studenti</li>
+                                    <li><strong>Coletul Studentului / Companie / Noi:</strong> se refera la serviciul de coletarie pentru studenti</li>
                                     <li><strong>Client / Utilizator / Dumneavoastra:</strong> persoana fizica sau juridica care utilizeaza serviciile noastre</li>
                                     <li><strong>Servicii:</strong> servicii de coletarie oferite de Coletul Studentului</li>
                                     <li><strong>Colet:</strong> pachet, obiect sau bunuri trimise prin serviciul de coletarie</li>
@@ -124,7 +124,6 @@ export default function TermsAndConditions() {
                             <li>Anulare sub 12 ore: taxa 50% din valoarea serviciului</li>
                             <li>Neprezentare fara anulare: taxa 100%</li>
                             <li>Modificari de program cu minim 24 ore inainte - gratuit</li>
-                            <li>Abonamentele pot fi transferate catre alt student</li>
                         </ul>
                     </section>
 
@@ -136,7 +135,7 @@ export default function TermsAndConditions() {
 
                         <h3 className="text-xl font-semibold text-neutral-900 mb-4">5.1 Responsabilitatile Companiei</h3>
                         <ul className="list-disc list-inside space-y-2 text-neutral-700 mb-6">
-                            <li>Transportul sigur al persoanelor si coletelor</li>
+                            <li>Transportul sigur al coletelor</li>
                             <li>Respectarea programului anuntat (cu o toleranta de +/- 30 minute)</li>
                             <li>Vehicule tehnic revizionate si curate</li>
                             <li>Soferi profesionisti cu permis valid</li>
@@ -147,7 +146,6 @@ export default function TermsAndConditions() {
                         <h3 className="text-xl font-semibold text-neutral-900 mb-4">5.2 Responsabilitatile Clientului</h3>
                         <ul className="list-disc list-inside space-y-2 text-neutral-700 mb-6">
                             <li>Furnizarea de informatii corecte si complete</li>
-                            <li>Prezentare la ora stabilita pentru transport persoane</li>
                             <li>Ambalarea corespunzatoare a coletelor</li>
                             <li>Declararea corecta a continutului coletelor</li>
                             <li>Respectarea regulilor de calatorie si comportament civilizat</li>
@@ -166,36 +164,6 @@ export default function TermsAndConditions() {
                             <li>Pierderea sau deteriorarea bunurilor de valoare nedeclarate</li>
                             <li>Daune indirecte, costuri de oportunitate sau profit pierdut</li>
                             <li>Bunuri perisabile deteriorate din cauza conditiilor naturale</li>
-                        </ul>
-                    </section>
-
-                    {/* 6. Asigurari */}
-                    <section className="mb-12">
-                        <h2 className="text-2xl font-bold text-neutral-900 mb-6">6. Asigurari si Despagubiri</h2>
-
-                        <h3 className="text-xl font-semibold text-neutral-900 mb-4">6.1 Asigurare Transport Persoane</h3>
-                        <ul className="list-disc list-inside space-y-2 text-neutral-700 mb-6">
-                            <li>Asigurare RCA pentru toti pasagerii</li>
-                            <li>Asigurare de calatorie inclusa in tarif</li>
-                            <li>Acoperire conform legislatiei rutiere in vigoare</li>
-                        </ul>
-
-                        <h3 className="text-xl font-semibold text-neutral-900 mb-4">6.2 Asigurare Coletarie</h3>
-                        <ul className="list-disc list-inside space-y-2 text-neutral-700 mb-6">
-                            <li>Asigurare de baza: pana la 500 RON (inclusa in tarif)</li>
-                            <li>Asigurare extinsa: disponibila pentru valori peste 500 RON</li>
-                            <li>Cost asigurare extinsa: 2% din valoarea declarata</li>
-                            <li>Plata se face in baza valorii declarate si dovedite</li>
-                        </ul>
-
-                        <h3 className="text-xl font-semibold text-neutral-900 mb-4">6.3 Procedura de Reclamatie</h3>
-                        <ul className="list-disc list-inside space-y-2 text-neutral-700">
-                            <li>Reclamatii in termen de 48 ore de la livrare</li>
-                            <li>Formulare de reclamatie disponibile la cerere</li>
-                            <li>Dovada valorii (facturi, chitante) obligatorie</li>
-                            <li>Fotografii ale daunelor necesare</li>
-                            <li>Raspuns in maxim 5 zile lucratoare</li>
-                            <li>Despagubire in maxim 15 zile de la aprobare</li>
                         </ul>
                     </section>
 
