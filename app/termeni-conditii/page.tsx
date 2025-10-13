@@ -88,7 +88,6 @@ export default function TermsAndConditions() {
                             
                             <li>Carti, manuale si materiale didactice</li>
                             <li>Haine si incaltaminte</li>
-                            <li>Produse alimentare ambalate</li>
                         </ul>
 
                         <h3 className="text-xl font-semibold text-neutral-900 mb-4">2.2 Limitari</h3>
