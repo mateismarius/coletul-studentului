@@ -37,10 +37,10 @@ export default function Header() {
                            className="text-neutral-600 hover:text-neutral-900 transition-colors font-medium">
                             Servicii
                         </a>
-                        <a href="#preturi"
+                        {/* <a href="#preturi"
                            className="text-neutral-600 hover:text-neutral-900 transition-colors font-medium">
                             Preturi
-                        </a>
+                        </a> */}
                         <a href="#intrebari"
                            className="text-neutral-600 hover:text-neutral-900 transition-colors font-medium">
                             Intrebari
