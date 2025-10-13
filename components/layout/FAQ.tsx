@@ -47,10 +47,6 @@ export default function FAQ() {
             question: "Oferiti reduceri pentru transport regulat?",
             answer: "Absolut! Pentru pachete recurente (saptamanal/lunar) oferim reduceri pe care le actualizam periodic. Va rugam sa ne contactati pentru mai multe detalii"
         },
-        // {
-        //     question: "Pot trimite mancare proaspata?",
-        //     answer: "Da, avem experienta cu mancarea de acasa. Folosim autoutilitare speciale cu sistem frigorific pentru produsele perisabile. Mancarurile gatite trebuie sa fie bine ambalate si etanse."
-        // },
         {
             question: "Ce dimensiuni maxime acceptati?",
             answer: "Acceptam pachete de toate dimensiunile, de la plicuri mici la cutii mari. Pentru obiecte voluminoase (mobila, electronice mari) avem tarife speciale, iar pretul se calculeaza individual."
